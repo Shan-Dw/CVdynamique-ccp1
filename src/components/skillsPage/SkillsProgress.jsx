@@ -2,9 +2,9 @@ import React from "react";
 
 export default function SkillsProgress() {
   return (
-    <div className="flex justify-center">
+    <div className="md:flex justify-center ">
       <div className="mr-20">
-        <div className="relative pt-1 ">
+        <div className="md:relative pt-1 ">
           <div className="flex mb-2 items-center justify-between">
             <div>
               <span className="text-xs font-semibold  py-1 px-2  text-gray-900 ">
@@ -24,7 +24,7 @@ export default function SkillsProgress() {
             ></div>
           </div>
         </div>
-        <div className="relative pt-1 ">
+        <div className="md:relative pt-1 ">
           <div className="flex mb-2 items-center justify-between">
             <div>
               <span className="text-xs font-semibold  py-1 px-2  text-gray-900 ">
@@ -46,7 +46,7 @@ export default function SkillsProgress() {
         </div>
       </div>
       <div className="mr-20">
-        <div className="relative pt-1 ">
+        <div className="md:relative pt-1 ">
           <div className="flex mb-2 items-center justify-between">
             <div>
               <span className="text-xs font-semibold  py-1 px-2  text-gray-900 ">
@@ -66,7 +66,7 @@ export default function SkillsProgress() {
             ></div>
           </div>
         </div>
-        <div className="relative pt-1 ">
+        <div className="md:relative pt-1 ">
           <div className="flex mb-2 items-center justify-between">
             <div>
               <span className="text-xs font-semibold  py-1 px-2  text-gray-900 ">
@@ -87,8 +87,8 @@ export default function SkillsProgress() {
           </div>
         </div>
       </div>
-      <div>
-        <div className="relative pt-1 ">
+      <div className="mr-20">
+        <div className="md:relative pt-1 ">
           <div className="flex mb-2 items-center justify-between">
             <div>
               <span className="text-xs font-semibold  py-1 px-2  text-gray-900 ">
@@ -109,7 +109,7 @@ export default function SkillsProgress() {
           </div>
         </div>
 
-        <div className="relative pt-1 ">
+        <div className="md:relative pt-1 ">
           <div className="flex mb-2 items-center justify-between">
             <div>
               <span className="text-xs font-semibold  py-1 px-2  text-gray-900 ">

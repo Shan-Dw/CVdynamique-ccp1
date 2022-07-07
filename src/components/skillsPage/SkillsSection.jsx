@@ -4,16 +4,16 @@ import ComposentInfoGen from "../ComposentInfoGeneral/ComposentInfoGen";
 
 export default function SkillsSection() {
   return (
-    <div className="flex">
+    <div className="md:flex">
       <ComposentInfoGen />
-      <div className="w-full max-h-screen bg-[#f5f0f0] container">
+      <div className="md:w-full md:max-h-screen bg-[#f5f0f0] container pb-10 mb:pb-0 ">
         <div className="pt-24">
-          <h2 className="text-[1.1rem] font-semibold leading-[1px] text-secondary-light">
+          <h2 className="md:text-[1.1rem] font-semibold leading-[1px] text-secondary-light">
             Ce que je fais bien
           </h2>
         </div>
         <div>
-          <h1 className="text-[4.5rem] font-extrabold text-primary ">
+          <h1 className="md:text-[4.5rem] text-[2rem] font-extrabold text-primary ">
             Mes compétences
           </h1>
         </div>
@@ -23,9 +23,7 @@ export default function SkillsSection() {
           voluptas ab mollitia culpa laborum magnam nulla commodi officia natus
           eveniet id!
         </p>
-        <div>
-          <SkillsProgress />
-        </div>
+        <SkillsProgress />
       </div>
     </div>
   );

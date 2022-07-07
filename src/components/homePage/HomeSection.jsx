@@ -6,14 +6,14 @@ export default function HomeSection() {
   return (
     <div className="md:flex">
       <ComposentInfoGen />
-      <div className="max-w-[80%] max-h-screen bg-[#f5f0f0] container ">
+      <div className="md:max-w-[80%] md:max-h-screen bg-[#f5f0f0] container pb-10 md:pb-0">
         <div className="pt-24">
-          <h2 className="text-[1.5rem] font-semibold leading-[1px] text-secondary-light">
+          <h2 className="md:text-[1.5rem] font-semibold leading-[1px] text-secondary-light">
             Développeur full stack
           </h2>
         </div>
         <div>
-          <h1 className="text-[5rem] font-extrabold text-primary ">
+          <h1 className=" text-[3rem]  md:text-[5rem] font-extrabold text-primary ">
             Shan Leweurs
           </h1>
         </div>

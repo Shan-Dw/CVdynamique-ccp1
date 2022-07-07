@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ContactForm() {
   return (
-    <div className="">
+    <div className="pb-8 md:pb-0">
       <form>
         <div class="relative z-0 w-full mb-3 group">
           <input
@@ -91,7 +91,7 @@ export default function ContactForm() {
         </div>
         <button
           type="submit"
-          className="text-white bg-[#8583e1] hover:bg-[#6a69b8] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          className=" mt-5 md:mt-0 text-white bg-[#8583e1] hover:bg-[#6a69b8] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
         >
           Send Message
         </button>

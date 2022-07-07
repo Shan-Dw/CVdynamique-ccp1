@@ -5,11 +5,11 @@ import ContactForm from "./ContactForm";
 export default function ContactSection() {
   return (
     <div>
-      <div className="flex">
+      <div className="md:flex">
         <ComposentInfoGen />
-        <div className="w-full max-h-screen bg-[#f5f0f0] container  ">
+        <div className="md:w-full md:max-h-screen bg-[#f5f0f0] container  ">
           <div className="pt-24">
-            <h1 className="text-[4.5rem] font-extrabold text-primary ">
+            <h1 className="md:text-[4.5rem] text-[2.8rem] font-extrabold text-primary ">
               Contactez-Moi
             </h1>
             <p className="text-secondary-light text-[0.9rem] pb-14">

@@ -25,9 +25,9 @@ export default function TestimonyCard() {
     },
   ];
   return (
-    <div className="flex justify-between pt-10">
+    <div className="md:flex justify-between pt-10 pb-1 md:pb-0">
       {customerCards.map((Cards) => (
-        <div className="w-[25%] bg-white p-4">
+        <div className="md:w-[25%] bg-white p-4 mb-8 md:mb-0">
           <div className="h-[14rem]">
             <h3 className="font-extrabold text-primary text-[1rem] pb-8">
               {Cards.title}

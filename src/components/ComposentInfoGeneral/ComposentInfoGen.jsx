@@ -31,7 +31,7 @@ export default function ComposentInfoGen() {
   ];
 
   return (
-    <div className=" min-h-[87vh] bg-[#100f3a] max-w-[20%]">
+    <div className=" min-h-[87vh] bg-[#100f3a] md:min-w-[20%]">
       <div>
         <img
           src="img/IMG_8646.jpg"
@@ -40,7 +40,7 @@ export default function ComposentInfoGen() {
         />
       </div>
       <div className="bg-[#100f3a] text-center px-6">
-        <h2 className=" pt-8 pb-6 text-white font-semibold text-2xl mx-16">
+        <h2 className=" pt-8 pb-6 text-white font-semibold text-2xl ">
           General Information
         </h2>
         <div className="flex justify-center">
