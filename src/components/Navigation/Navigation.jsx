@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 export default function Navigation() {
   const items = [
@@ -38,6 +39,11 @@ export default function Navigation() {
   return (
     <header>
       <nav>
+        <div className="text-white  flex justify-end pr-4 text-[1.4rem] absolute right-0 pt-2 md:hidden">
+          <a href="/">
+            <GiHamburgerMenu />
+          </a>
+        </div>
         <div className="hidden md:flex items-center">
           <div className="mr-8">
             <p className="md:text-4xl text-xl text-primary font-extrabold">

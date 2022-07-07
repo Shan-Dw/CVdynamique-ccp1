@@ -19,14 +19,17 @@ export default function ComposentInfoGen() {
     {
       img: "img/téléchargement2.webp",
       texte: "Leweurspro@gmail.com",
+      name: "",
     },
     {
       img: "img/téléchargement3.webp",
       texte: "+33640154223",
+      name: "",
     },
     {
       img: "img/téléchargement5.webp",
       texte: "www.mytemplatename.com",
+      name: "",
     },
   ];
 
